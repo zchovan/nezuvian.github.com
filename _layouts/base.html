@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
   <meta charset="UTF-8">
-  <title>nezuvian's dev blog</title>
+  <title>{% if page.title %} {{ page.title }} | {% endif %}nezuvian's dev blog</title>
   <script type="text/javascript">
 
     var _gaq = _gaq || [];
@@ -16,7 +16,7 @@
     })();
 
   </script>
-  <link rel="stylesheet/less" type="text/css" href="css/main.less">
+  <link rel="stylesheet/less" type="text/css" href="css/main.css">
 </head>
 <body>
 <div class="container">
@@ -24,12 +24,9 @@
 
   </header>
 
-  <div class="content">
-    <section class="main">
-
-    </section>
-    <nav class="sidebar"></nav>
-  </div>
+    <div class="wrapper">
+        {{ content }}
+    </div>
   <footer>
 
   </footer>
