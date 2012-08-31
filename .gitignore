@@ -1,5 +1,7 @@
 .idea
 .idea/*
+.sass-cache
+.sass-cache/*
 _site/*
 _theme_packages/*
 
