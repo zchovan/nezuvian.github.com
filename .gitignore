@@ -5,6 +5,9 @@
 _site/*
 _theme_packages/*
 
+*.sublime-procject
+*.sublime-workspace
+
 Thumbs.db
 .DS_Store
 
