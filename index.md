@@ -7,7 +7,7 @@ title: nezuvian::dev_blog
 
 {% for post in site.posts %}
 <div class="posts row">
-    <div class="two columns">
+    <div class="date-sidebar two columns">
       <span>{{ post.date | date_to_string }}</span> &raquo; 
     </div>
     <div class="ten columns">

@@ -1,3 +1,20 @@
-#container {
+.container {
+    h1.page-tite {
+        margin-bottom: 20px;
+    }
 
+    .content-wrapper {
+        .post.row,
+        .posts.row {
+            .date-sidebar {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .content {
+        .info.row {
+            float: none;
+        }
+    }
 }

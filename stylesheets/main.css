@@ -1,0 +1,13 @@
+/* line 2, ../sass/main.scss */
+.container h1.page-tite {
+  margin-bottom: 20px;
+}
+/* line 9, ../sass/main.scss */
+.container .content-wrapper .post.row .date-sidebar,
+.container .content-wrapper .posts.row .date-sidebar {
+  margin-top: 20px;
+}
+/* line 16, ../sass/main.scss */
+.container .content .info.row {
+  float: none;
+}

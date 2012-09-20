@@ -1,6 +1,6 @@
 <div class="post row">
-    <div class="two columns">
-      <span>{{ page.date | date_to_string }}</span> &raquo; 
+    <div class="date-sidebar two columns">
+      <span class="date">{{ page.date | date_to_string }}</span> &raquo; 
     </div>
     <div class="ten columns">
       <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ page.title }}</a></h2>
@@ -9,11 +9,11 @@
       </div>
     </div>
 </div>
-<div class="comments row">
+<div class="comments row nine columns offset-by-two">
   {% include JB/comments %}
 </div>
 
-<div class="pagination row">
+<div class="pagination row nine columns offset-by-two">
     <ul>
     {% if page.previous %}
       <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
@@ -30,7 +30,7 @@
 </div>  
 
 
-<footer>
+<div class="info row nine columns offset-by-two">
   <h4>Published</h4>
   <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
 
@@ -41,4 +41,4 @@
   {% include JB/tags_list %}
   </ul>
 {% endunless %}  
-</footer>
+</div>
