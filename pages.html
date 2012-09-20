@@ -5,9 +5,14 @@ header: Pages
 group: navigation
 ---
 {% include JB/setup %}
-
-<h2>All Pages</h2>
-<ul>
-{% assign pages_list = site.pages %}
-{% include JB/pages_list %}
-</ul>
+<div class="categories row">    
+    <div class="ten columns offset-by-two">      
+      <div class="twelve.columns">        
+        <h2>All Pages</h2>
+        <ul>
+        {% assign pages_list = site.pages %}
+        {% include JB/pages_list %}
+        </ul>
+      </div>
+    </div>
+</div>

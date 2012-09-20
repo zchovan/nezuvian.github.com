@@ -7,4 +7,10 @@ group: navigation
 {% include JB/setup %}
 
 {% assign posts_collate = site.posts %}
-{% include JB/posts_collate %}
+<div class="categories row">    
+    <div class="ten columns offset-by-two">      
+      <div class="twelve.columns">
+        {% include JB/posts_collate %}        
+      </div>
+    </div>
+</div>
