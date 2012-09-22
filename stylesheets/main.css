@@ -23,14 +23,7 @@
 .container .text-body span.label {
   clear: none;
 }
-/* line 35, ../sass/main.scss */
-.container .text-body h2.post-title {
-  border-left: 3px solid #0d73a5;
-  line-height: 0.75;
-  margin-top: 20px;
-  margin-left: 1px;
-}
-/* line 43, ../sass/main.scss */
+/* line 37, ../sass/main.scss */
 .container footer {
   margin-top: 20px;
 }
