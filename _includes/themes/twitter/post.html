@@ -1,9 +1,9 @@
 <div class="post row">
     <div class="date-sidebar two columns">
-      <span class="date">{{ page.date | date_to_string }}</span> &raquo; 
+      <span class="date">{{ page.date | date_to_string }}</span>
     </div>
-    <div class="ten columns">
-      <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ page.title }}</a></h2>
+    <div class="text-body ten columns">
+      <h2 class="post-title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ page.title }}</a></h2>
       <div class="twelve.columns">        
         {{ content }}
       </div>
@@ -14,17 +14,21 @@
 </div>
 
 <div class="pagination row nine columns offset-by-two">
-    <ul>
+    <ul class="pagination">
     {% if page.previous %}
-      <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
+      <li class="arrow">
+        <a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; Previous</a>
+      </li>
     {% else %}
-      <li class="prev disabled"><a>&larr; Previous</a></li>
+      <li class="arrow unavailable"><a>&laquo; Previous</a></li>
     {% endif %}
-      <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+      <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}"><span class="label">Archive</span></a></li>
     {% if page.next %}
-      <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
+      <li class="arrow">
+        <a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &raquo;</a>
+      </li>
     {% else %}
-      <li class="next disabled"><a>Next &rarr;</a>
+      <li class="arrow unavailable"><a>Next &raquo;</a></li>
     {% endif %}
     </ul>
 </div>  

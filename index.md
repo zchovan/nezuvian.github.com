@@ -8,13 +8,14 @@ title: nezuvian::dev_blog
 {% for post in site.posts %}
 <div class="posts row">
     <div class="date-sidebar two columns">
-      <span>{{ post.date | date_to_string }}</span> &raquo; 
+      <span>{{ post.date | date_to_string }}</span>
     </div>
-    <div class="ten columns">
-      <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
-      <div class="twelve.columns">
+    <div class="text-body ten columns">
+      <h2 class="post-title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>      
+      <div class="twelve columns">
         {{ post.content }}
       </div>
+      {% include JB/tags_list %}
     </div>
 </div>
 {% endfor %}  
