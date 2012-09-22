@@ -15,6 +15,7 @@ title: nezuvian::dev_blog
       <div class="twelve columns">
         {{ post.content }}
       </div>
+      {% assign tags_list = post.tags %}
       {% include JB/tags_list %}
     </div>
 </div>
