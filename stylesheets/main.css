@@ -23,7 +23,33 @@
 .container .text-body span.label {
   clear: none;
 }
-/* line 37, ../sass/main.scss */
+/* line 38, ../sass/main.scss */
+.container .info h5, .container .navbar h5 {
+  margin-bottom: 3px;
+}
+/* line 43, ../sass/main.scss */
+.container .contact-info {
+  clear: right;
+  display: block;
+  float: left;
+  margin-bottom: 0px;
+}
+/* line 49, ../sass/main.scss */
+.container .contact-info li {
+  list-style: none;
+  float: left;
+  clear: none;
+}
+/* line 54, ../sass/main.scss */
+.container .contact-info li i {
+  font-size: 16px;
+}
+/* line 60, ../sass/main.scss */
+.container .side-nav {
+  float: left;
+  clear: left;
+}
+/* line 65, ../sass/main.scss */
 .container footer {
   margin-top: 20px;
 }

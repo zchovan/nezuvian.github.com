@@ -15,6 +15,7 @@
     <!-- Stylesheets -->
     <link href="/stylesheets/app.css" rel="stylesheet">
     <link href="/stylesheets/main.css" rel="stylesheet">    
+    <link href="/stylesheets/font-awesome.css" rel="stylesheet">    
   
   </head>
 
@@ -34,8 +35,18 @@
           <!-- /content -->
         </div>
         <div class="three columns hide-on-phones">
-          <div class="navbar">                                         
+          <div class="info">
+            <h3>Hey!</h3>
+            <p>I'm nezuvian and this is my blog about my meddling with Symfony and stuff.</p>
+            <h5>Contacts:</h5>
+            <ul class="contact-info">
+              <li><a href="http://twitter.com/nezuvian"><i class="icon-twitter"></i></a></li>
+              <li><a href="mailto:nezuvian@gmail.com"><i class="icon-envelope"></i></a></li>
+            </ul>
+          </div>
+          <div class="navbar">                                                      
             <ul class="side-nav">
+              <li><h5>Links</h5></li>
               {% assign pages_list = site.pages %}
               {% assign group = 'navigation' %}
               {% include JB/pages_list %}
