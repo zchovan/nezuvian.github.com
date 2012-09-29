@@ -12,8 +12,9 @@ title: nezuvian::dev_blog
     </div>
     <div class="text-body ten columns">
       <h2 class="post-title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>      
-      <div class="twelve columns">
-        {{ post.content }}
+      <div class="twelve columns">        
+        {{ post.content | replace:"more start -->",'' | replace:"<!-- more end",'' }}
+        <a href="{{ BASE_PATH }}{{ post.url }}">Read more &raquo;</a>
       </div>
       {% assign tags_list = post.tags %}
       {% include JB/tags_list %}
