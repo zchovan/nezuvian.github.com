@@ -9,4 +9,4 @@ So today I had to find a way how to configure/modify the SonataAdminBundle's pag
 Here's the modified action:
 <script src="https://gist.github.com/3905984.js"></script>
 
-If you want some flexibility, you can set it up with a parameter, so
+If you want some flexibility, you can set it up with a parameter, so `$pager->setMaxPerPage(50);` will become: `$pager->setMaxPerPage($this->container->getParameter('items_per_page'));`
