@@ -1,17 +1,22 @@
 /* line 2, ../sass/main.scss */
+.container code {
+  display: inline-block;
+  clear: both;
+}
+/* line 7, ../sass/main.scss */
 .container h1.page-tite {
   margin-bottom: 20px;
 }
-/* line 9, ../sass/main.scss */
+/* line 14, ../sass/main.scss */
 .container .content-wrapper .post.row .date-sidebar,
 .container .content-wrapper .posts.row .date-sidebar {
   margin-top: 20px;
 }
-/* line 16, ../sass/main.scss */
+/* line 21, ../sass/main.scss */
 .container .content .info.row {
   float: none;
 }
-/* line 22, ../sass/main.scss */
+/* line 27, ../sass/main.scss */
 .container .date-sidebar span {
   background-color: #0d73a5;
   color: #fff;
@@ -19,42 +24,42 @@
   padding: 6px 5px 7px 0;
   text-align: right;
 }
-/* line 32, ../sass/main.scss */
+/* line 37, ../sass/main.scss */
 .container .text-body span.label {
   clear: none;
 }
-/* line 36, ../sass/main.scss */
+/* line 41, ../sass/main.scss */
 .container .text-body .post-body {
   margin-bottom: 10px;
   padding-right: 5px;
 }
-/* line 43, ../sass/main.scss */
+/* line 48, ../sass/main.scss */
 .container .info h5, .container .navbar h5 {
   margin-bottom: 3px;
 }
-/* line 48, ../sass/main.scss */
+/* line 53, ../sass/main.scss */
 .container .contact-info {
   clear: right;
   display: block;
   float: left;
   margin-bottom: 0px;
 }
-/* line 54, ../sass/main.scss */
+/* line 59, ../sass/main.scss */
 .container .contact-info li {
   list-style: none;
   float: left;
   clear: none;
 }
-/* line 59, ../sass/main.scss */
+/* line 64, ../sass/main.scss */
 .container .contact-info li i {
   font-size: 16px;
 }
-/* line 65, ../sass/main.scss */
+/* line 70, ../sass/main.scss */
 .container .side-nav {
   float: left;
   clear: left;
 }
-/* line 70, ../sass/main.scss */
+/* line 75, ../sass/main.scss */
 .container footer {
   margin-top: 20px;
 }
