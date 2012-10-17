@@ -10,10 +10,3 @@ Here's the modified action:
 <script src="https://gist.github.com/3905984.js"></script>
 
 If you want some flexibility, you can set it up with a parameter, so
-```php
-$pager->setMaxPerPage(50);
-```
-will become:
-```php
-$pager->setMaxPerPage($this->container->getParameter('items_per_page'));
-```
