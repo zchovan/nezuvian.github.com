@@ -13,3 +13,5 @@ If you want some flexibility, you can set it up with a parameter, so
 `$pager->setMaxPerPage(50);`<br>
 will become:
 `$pager->setMaxPerPage($this->container->getParameter('items_per_page'));`
+
+If you want to tweak the paginator some more, you can do it at the same way, the available function are in the [Pager.php](https://github.com/sonata-project/SonataAdminBundle/blob/2.0/Datagrid/Pager.php), be sure to use them before the createView() is called.
