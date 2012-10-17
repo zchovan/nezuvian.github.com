@@ -26,34 +26,35 @@
 /* line 36, ../sass/main.scss */
 .container .text-body .post-body {
   margin-bottom: 10px;
+  padding-right: 5px;
 }
-/* line 42, ../sass/main.scss */
+/* line 43, ../sass/main.scss */
 .container .info h5, .container .navbar h5 {
   margin-bottom: 3px;
 }
-/* line 47, ../sass/main.scss */
+/* line 48, ../sass/main.scss */
 .container .contact-info {
   clear: right;
   display: block;
   float: left;
   margin-bottom: 0px;
 }
-/* line 53, ../sass/main.scss */
+/* line 54, ../sass/main.scss */
 .container .contact-info li {
   list-style: none;
   float: left;
   clear: none;
 }
-/* line 58, ../sass/main.scss */
+/* line 59, ../sass/main.scss */
 .container .contact-info li i {
   font-size: 16px;
 }
-/* line 64, ../sass/main.scss */
+/* line 65, ../sass/main.scss */
 .container .side-nav {
   float: left;
   clear: left;
 }
-/* line 69, ../sass/main.scss */
+/* line 70, ../sass/main.scss */
 .container footer {
   margin-top: 20px;
 }

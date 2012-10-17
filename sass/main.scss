@@ -22,7 +22,7 @@
         span {
             background-color: hsl(200, 85%, 35%);
             color: #fff;
-            display: block;            
+            display: block;
             padding: 6px 5px 7px 0;
             text-align: right;
         }
@@ -30,11 +30,12 @@
 
     .text-body {
         span.label {
-            clear: none;            
-        }        
+            clear: none;
+        }
 
         .post-body {
             margin-bottom: 10px;
+            padding-right: 5px;
         }
     }
 
